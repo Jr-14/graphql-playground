@@ -1,0 +1,28 @@
+{
+    "name": "graphql-playground",
+    "version": "1.0.0",
+    "author": "John Emerson Requizo",
+    "type": "module",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "compile": "tsc",
+        "start": "npm run compile && node ./dist/index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Jr-14/graphql-playground"
+    },
+    "keywords": [],
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/Jr-14/graphql-playground/issues"
+    },
+    "homepage": "https://github.com/Jr-14/graphql-playground",
+    "dependencies": {
+        "@apollo/server": "^4.9.3",
+        "graphql": "^16.8.1"
+    },
+    "devDependencies": {
+        "@types/node": "^20.8.0"
+    }
+}
